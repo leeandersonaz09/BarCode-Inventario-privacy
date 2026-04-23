@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Politica de Privacidade - BarCode Inventario</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f6f8fb;
+        --text: #14213d;
+        --muted: #5f6f84;
+        --card: #ffffff;
+        --border: #dde6ef;
+        --accent: #1f7a68;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0e1116;
+          --text: #f4f7fb;
+          --muted: #a7b0be;
+          --card: #171c24;
+          --border: #2c3542;
+          --accent: #57c7a5;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        width: min(920px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 40px 0 64px;
+      }
+      article {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: clamp(22px, 4vw, 42px);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(30px, 5vw, 44px);
+        line-height: 1.1;
+      }
+      h2 {
+        margin-top: 32px;
+        color: var(--accent);
+        font-size: 22px;
+      }
+      p,
+      li {
+        color: var(--muted);
+      }
+      strong {
+        color: var(--text);
+      }
+      .updated {
+        margin-top: 0;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      ul {
+        padding-left: 24px;
+      }
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Politica de Privacidade - BarCode Inventario</h1>
+        <p class="updated">Ultima atualizacao: 23 de abril de 2026</p>
+
+        <p>Esta Politica de Privacidade explica como o aplicativo <strong>BarCode Inventario</strong> trata informacoes de usuarios, produtos, arquivos e dispositivo.</p>
+
+        <p>O BarCode Inventario e um aplicativo de leitura de codigo de barras e controle de estoque. O app foi desenvolvido para funcionar com armazenamento local no proprio aparelho do usuario. Nao criamos contas de usuario, nao exibimos anuncios, nao usamos analytics e nao coletamos dados pessoais para servidores proprios.</p>
+
+        <h2>1. Quem e o controlador do app</h2>
+        <p><strong>Aplicativo:</strong> BarCode Inventario</p>
+        <p><strong>Pacote Android:</strong> com.scanestoque.app</p>
+        <p><strong>Responsavel/desenvolvedor:</strong> Lee Anderson Martins de Jesus Brasil</p>
+        <p><strong>Contato:</strong> <a href="mailto:lee.brasil@outlook.com">lee.brasil@outlook.com</a></p>
+
+        <h2>2. Dados que o app armazena no aparelho</h2>
+        <p>O aplicativo pode armazenar localmente, em um banco SQLite dentro do proprio dispositivo, os dados de produtos cadastrados ou escaneados pelo usuario:</p>
+        <ul>
+          <li>codigo EAN, UPC, Code 128, QR ou outro codigo lido;</li>
+          <li>nome do produto;</li>
+          <li>marca;</li>
+          <li>quantidade ou peso;</li>
+          <li>categorias;</li>
+          <li>preco informado pelo usuario;</li>
+          <li>URL da imagem do produto, quando disponivel;</li>
+          <li>data de criacao ou atualizacao do registro no banco local.</li>
+        </ul>
+        <p>Esses dados sao usados somente para montar o catalogo local do usuario, permitir edicao, consulta, exportacao e backup. Eles ficam no aparelho, exceto quando o proprio usuario decide exportar, compartilhar ou restaurar um backup.</p>
+        <p>O app tambem pode salvar preferencias simples no aparelho, como idioma escolhido, modo claro ou escuro e informacao de que a tela inicial de apresentacao ja foi vista.</p>
+
+        <h2>3. Camera e leitura de codigos</h2>
+        <p>O BarCode Inventario solicita acesso a camera para permitir a leitura de codigos de barras, QR Code e outros formatos suportados.</p>
+        <p>O uso da camera e restrito a leitura do codigo exibido diante da camera. O app nao grava videos, nao tira fotos para armazenamento, nao grava audio e nao envia imagens da camera para servidores proprios.</p>
+        <p>Quando um codigo e lido, o app usa apenas o valor textual do codigo para procurar o produto no banco local e, quando necessario, consultar fontes externas de informacao de produtos.</p>
+
+        <h2>4. Arquivos, backup, importacao e exportacao</h2>
+        <p>O app pode solicitar acesso a arquivos ou pastas do dispositivo para funcoes escolhidas pelo usuario, como exportar backup do banco local em arquivo .db, salvar backup em uma pasta escolhida, importar/restaurar um arquivo de backup .db, exportar catalogo em PDF ou CSV e compartilhar arquivos gerados por meio do recurso nativo de compartilhamento do sistema.</p>
+        <p>O acesso a arquivos e usado apenas para criar, salvar, selecionar, importar ou compartilhar arquivos relacionados ao proprio catalogo do usuario. O app nao varre arquivos do aparelho, nao acessa arquivos pessoais sem acao do usuario e nao envia os arquivos para servidores proprios.</p>
+        <p>Ao usar a opcao de compartilhar, salvar ou exportar, o destino do arquivo passa a depender do aplicativo, pasta ou servico escolhido pelo usuario, como gerenciador de arquivos, email, mensageiro, armazenamento em nuvem ou outro app instalado.</p>
+
+        <h2>5. Uso da internet e consultas externas</h2>
+        <p>O BarCode Inventario nao possui servidor proprio para coleta de dados dos usuarios.</p>
+        <p>No entanto, para identificar produtos que ainda nao estao cadastrados no aparelho, o app pode consultar servicos externos de informacao de produtos usando o codigo de barras digitado ou escaneado. Essas consultas podem envolver Open Food Facts, Open Beauty Facts, Cosmos/Bluesoft, Barcode Monster e UPCItemDB.</p>
+        <p>Nessas consultas, o codigo de barras pode ser enviado para o servico externo para retornar dados publicos do produto, como nome, marca, categoria, quantidade e URL de imagem. Esses servicos externos podem receber dados tecnicos normais de uma requisicao de internet, como endereco IP, data/hora da conexao, identificadores tecnicos e informacoes padrao do navegador/requisicao, de acordo com as proprias politicas de privacidade deles.</p>
+        <p>O BarCode Inventario nao vende esses dados, nao cria perfil de usuario, nao usa os codigos escaneados para publicidade e nao armazena essas consultas em servidor proprio.</p>
+
+        <h2>6. Imagens de produtos</h2>
+        <p>Quando um produto possui uma URL de imagem, o app pode carregar essa imagem diretamente da internet para exibi-la no catalogo. Nesses casos, o provedor da imagem pode receber uma requisicao tecnica para carregar o arquivo, como ocorre em qualquer carregamento de imagem remota.</p>
+        <p>O app nao envia fotos tiradas pelo usuario para servidores proprios e nao coleta imagens da camera.</p>
+
+        <h2>7. Area de transferencia</h2>
+        <p>O app permite copiar o codigo de barras de um produto para a area de transferencia do dispositivo quando o usuario toca no botao de copiar. Essa acao e iniciada pelo usuario e serve apenas para facilitar o uso do codigo em outros aplicativos.</p>
+
+        <h2>8. Compartilhamento de dados</h2>
+        <p>O BarCode Inventario nao vende, aluga ou compartilha dados pessoais com anunciantes.</p>
+        <p>O compartilhamento de dados ocorre apenas quando o usuario usa funcoes de exportacao, backup ou compartilhamento e escolhe um destino externo; quando o app consulta servicos externos para buscar informacoes de um produto a partir do codigo de barras; ou quando o sistema operacional e servicos externos processam requisicoes tecnicas necessarias para funcionamento de internet, arquivos ou compartilhamento.</p>
+
+        <h2>9. Seguranca e armazenamento</h2>
+        <p>Os dados do catalogo ficam armazenados localmente no banco de dados do aplicativo no proprio aparelho. A protecao desses dados depende tambem dos mecanismos de seguranca do dispositivo, como bloqueio de tela, criptografia do aparelho, backup do sistema e permissoes do Android.</p>
+        <p>Backups exportados pelo usuario deixam de estar sob controle do app depois que sao salvos, enviados ou compartilhados para outro local.</p>
+
+        <h2>10. Exclusao de dados</h2>
+        <p>O usuario pode excluir dados diretamente no app apagando produtos individualmente, usando a opcao de redefinir o banco de dados ou desinstalando o aplicativo. A desinstalacao remove os dados locais do app do dispositivo, salvo backups ou arquivos que o usuario tenha exportado para outros locais.</p>
+        <p>Arquivos de backup, PDF ou CSV salvos fora do app precisam ser excluidos manualmente pelo usuario no local onde foram salvos.</p>
+
+        <h2>11. Criancas</h2>
+        <p>O BarCode Inventario nao e direcionado a criancas menores de 13 anos. O app e voltado a organizacao de produtos, catalogo e controle de estoque. Nao coletamos conscientemente dados pessoais de criancas.</p>
+        <p>Se um responsavel acreditar que uma crianca forneceu dados pessoais por meio do app, entre em contato para avaliarmos a situacao.</p>
+
+        <h2>12. Permissoes usadas</h2>
+        <ul>
+          <li><strong>Camera:</strong> leitura de codigos de barras e QR Code.</li>
+          <li><strong>Internet:</strong> consulta de informacoes publicas de produtos e carregamento de imagens remotas.</li>
+          <li><strong>Arquivos/armazenamento:</strong> exportacao, salvamento local, importacao e restauracao de backups, PDF e CSV.</li>
+        </ul>
+        <p>O app nao usa permissao de localizacao, contatos, telefone, SMS, calendario ou microfone para suas funcionalidades.</p>
+
+        <h2>13. Alteracoes nesta politica</h2>
+        <p>Esta Politica de Privacidade pode ser atualizada quando houver mudancas no aplicativo, nas permissoes usadas ou nas exigencias legais e da Google Play. A data de atualizacao no topo do documento indicara a versao mais recente.</p>
+
+        <h2>14. Contato</h2>
+        <p>Para duvidas sobre privacidade, dados locais, backup ou funcionamento do aplicativo, entre em contato: <a href="mailto:lee.brasil@outlook.com">lee.brasil@outlook.com</a></p>
+
+        <h2>Resumo para a ficha da Google Play</h2>
+        <p>O BarCode Inventario nao coleta dados pessoais para servidores proprios, nao possui anuncios e nao usa analytics. Os dados de produtos ficam armazenados localmente no aparelho do usuario. O app usa a camera apenas para ler codigos, acesso a arquivos apenas para backup/importacao/exportacao escolhidos pelo usuario e internet apenas para consultar informacoes publicas de produtos em servicos externos quando necessario.</p>
+      </article>
+    </main>
+  </body>
+</html>
